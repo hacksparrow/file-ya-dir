@@ -1,0 +1,40 @@
+{
+  "name": "file-ya-dir",
+  "version": "0.1.0",
+  "description": "Find out if it is a file or a directory in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "npm run lint",
+    "lint": "eslint .",
+    "test": "mocha --bail test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hacksparrow/file-ya-dir.git"
+  },
+  "keywords": [
+    "file",
+    "directory",
+    "dir",
+    "file or directory",
+    "file or dir"
+  ],
+  "author": "Hage Yaapa <captain@hacksparrow.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hacksparrow/file-ya-dir/issues"
+  },
+  "homepage": "https://github.com/hacksparrow/file-ya-dir#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "mocha": "^5.0.5"
+  },
+  "engines": {
+    "node": ">= 7.6"
+  }
+}
